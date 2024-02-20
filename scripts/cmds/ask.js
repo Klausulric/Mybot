@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const Prefixes = [
   'ask',
-  '.chi',
+  'Tamara',
   '¶sammy',
   '_nano',
   'nano',
@@ -32,7 +32,7 @@ const Prefixes = [
 module.exports = {
   config: {
     name: 'ask',
-    aliases: ["ai", "gpt"],
+    aliases: ["ai", "Tamara" , "gpt"],
     version: '2.5',
     author: 'JV Barcenas',
     role: 0,
@@ -63,13 +63,13 @@ module.exports = {
       // Check if prompt is empty
       if (prompt === '') {
         await message.reply(
-          "Kindly provide the question at your convenience and I shall strive to deliver an effective response. Your satisfaction is my top priority."
+          "👸|Je suis Tamara, votre assistante virtuelle comment puis je vous aider aujourd'hui?😽"
         );
         return;
       }
 
       // Send a message indicating that the question is being answered
-      await message.reply("Answering your question. Please wait a moment...");
+      await message.reply("🛀|🧘Veuillez patienter s'il vous plaît...");
 
       const response = await axios.get(`https://chatgayfeyti.archashura.repl.co?gpt=${encodeURIComponent(prompt)}`);
 
