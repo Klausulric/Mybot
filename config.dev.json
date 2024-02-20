@@ -1,26 +1,8 @@
 {
-  "0": "U",
-  "1": "p",
-  "2": "d",
-  "3": "a",
-  "4": "t",
-  "5": "e",
-  "6": " ",
-  "7": "c",
-  "8": "o",
-  "9": "n",
-  "10": "f",
-  "11": "i",
-  "12": "g",
-  "13": ".",
-  "14": "j",
-  "15": "s",
-  "16": "o",
-  "17": "n",
   "facebookAccount": {
-    "email": "edimcpc36@gmail.com",
-    "password": "edinst0877",
-    "2FASecret": "922763",
+    "email": "",
+    "password": "",
+    "2FASecret": "",
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
@@ -36,8 +18,8 @@
     "hideNotiMessage": true
   },
   "adminBot": [
-    "100056791542702",
-    "100082866835315"
+    "61554713117638",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
@@ -46,8 +28,8 @@
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Fiona 피오 bot project",
-  "prefix": "/",
+  "nickNameBot": "👸Tamara 🛀",
+  "prefix": "*",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
